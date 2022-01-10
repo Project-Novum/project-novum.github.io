@@ -47,7 +47,7 @@ struct actor_t = {
 }
 ```
 
-### Script section
+### Actors section
 
 The actors is an "encrypted" and can be decrypted using the following algorithm:
 
