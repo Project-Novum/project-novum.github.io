@@ -45,7 +45,7 @@ struct lpd_t = {
 The script is an "encrypted" form of the lua byte-code. The script can be decrypted using the following algorithm:
 
 ```cpp
-  char decoded = encoded ^ 073
+  char decoded = encoded ^ 0x73
 ```
 
 ## File Name Format
